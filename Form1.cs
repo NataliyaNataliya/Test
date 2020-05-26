@@ -25,15 +25,10 @@ namespace WinForms25052020Test1
 
         private void addRndStrButton3_Click(object sender, EventArgs e)
         {
-            //List<string> list = new List<string>();
-
             for (int i = 0; i < 10; i++)
             {
-                //list.Add(Rnd());
                 listBox1.Items.Add(Rnd());
             }
-
-            //listBox1.DataSource = list;
         }
 
         public string Rnd()
