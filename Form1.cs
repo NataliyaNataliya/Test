@@ -18,6 +18,11 @@ namespace WinForms25052020Test1
             listBox1.Items.Add(textBox1.Text);
         }
 
+        private void cleanButton2_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+        }
+
         private void addRndStrButton3_Click(object sender, EventArgs e)
         {
             List<string> list = new List<string>();
